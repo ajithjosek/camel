@@ -1,0 +1,7 @@
+file-transfer:
+  ftpToS3:
+    /ftp/folder1: s3/subpath1
+    /ftp/folder2: s3/subpath2
+  s3ToFtp:
+    s3/subpath1: /ftp/folder1
+    s3/subpath2: /ftp/folder2
